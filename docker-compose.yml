@@ -3,9 +3,9 @@ services:
   web: 
     image: nginx
     expose: 
-      - 80
+      - 70
     volumes:
       -  ./code:/usr/share/nginx/html
 
     ports:
-      - 80:70
+      - 81
