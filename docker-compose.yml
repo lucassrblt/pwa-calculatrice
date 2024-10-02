@@ -8,4 +8,4 @@ services:
       -  ./code:/usr/share/nginx/html
 
     ports:
-      - 80:80
+      - 80:70
